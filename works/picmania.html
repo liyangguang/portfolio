@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>PicMania HTML mobile app</title>
+    <meta name="description" content="PicMania HTML5 mobile responsive game development, UX design, Yangguang Li's portfolio.">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/work.css">
+</head>
+
+<body class="container-fluid">
+    <nav class="row mainnav-wrap js-mainnav-wrap">
+        <img src="" alt="" class="nav-logo">
+        <h1 class="visuallyhidden">Navigation</h1>
+        <ul class="mainnav">
+            <li class="mainnav-button">
+                <a class="mainnav-link js-nav-portfolio" href="../index.html#portfolio">portfolio</a>
+            </li>
+            <li class="mainnav-button">
+                <a class="mainnav-link" target="_blank" href="../files/Yangguang_LI_Resume.pdf">resume</a>
+            </li>
+            <li class="mainnav-button js-nav-about">
+                <a class="mainnav-link" href="../index.html#about">about me</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header class="row header js-header header-picmania">
+        <h1 class="work-title">PicMania HTML Mobile App Development</h1>
+        <p class="work-subtitle">A mobile responsive HTML5 game on WeChat platform.</p>
+        <img class="img-normal" src="../img/picmania/banner.png" alt="PicMania HTML5 game development">
+    </header>
+
+    <section class="row information shading">
+        <h1 class="visuallyhidden">information</h1>
+        
+        <div class="col-md-4 information-column">
+            <h2 class="information-subtitle">project information</h2>
+            <p>Freelancer Project. Sep. 2013, 1 Week</p>
+            <p>Beijing HuaYang Auto</p>
+            <p>(All images are translation from the orginal app.)</p>
+        </div>
+
+        <div class="col-md-4 information-column">
+            <h2 class="information-subtitle">methods & tools</h2>
+            <ul>
+                <li>jQuery</li>
+                <li>HTML & CSS</li>
+                <li>Mobile Responsive</li>
+            </ul>
+        </div>
+        
+        <div class="col-md-4 information-column">
+            <h2 class="information-subtitle">my work</h2>
+            <ul>
+                <li>UI Development</li>
+                <li>Game Logic Development</li>
+                <li>Social Media Integration</li>
+            </ul>
+        </div>
+    </section><!-- information -->
+
+    <section  class="row section section-bg section-bg-picmania text-white">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="text1">introduction</h1>
+            <p>The game is a word guessing game. Players choose letters from the pool to build a word represents the picture on the screen.</p>
+            <p>This project is developing a customized HTML5 version of a popular mobile game "疯狂猜图" (translated as "Guess Pic Mania") for a vehicle serveice company.</p>
+        </div>
+    </section><!-- challenge -->
+
+    <section class="row section">
+        <h1 class="text1">UI development</h1>
+        <h2 class="text2">screen flow</h2>
+        
+        <div class="col-md-8 section">
+            <img class="img-normal" src="../img/picmania/screen_flow.png" alt="Screen flow">
+        </div>
+        <div class="col-md-3 section">
+            <div class="annotation">
+                <p class="bullet-detail">This game used a very flat information architecture, considering the game will be played inside WeChat (a molibe social platform) There are three main screens in this app:</p>
+                <h3 class="bulletpoint">Start page</h3>
+                <p class="bullet-detail">The start page shows instruction, game progress, a reset button and a start button.</p>
+                <h3 class="bulletpoint">Game page</h3>
+                <p class="bullet-detail">The game page is the main part, which contains a picture and a letter pool.</p>
+                <h3 class="bulletpoint">Congrats page</h3>
+                <p class="bullet-detail">In the congrats screen, user can start a vew level or view the ranking.</p>
+            </div>
+        </div>
+    </section><!-- UI -->
+
+    <section class="row section shading">
+        <h1 class="text1">game logic</h1>
+        <h2 class="text2">code structure</h2>
+        
+        <div class="col-md-10 col-md-offset-1 section">
+            <img class="img-normal" src="../img/picmania/code_structure.png" alt="code structure">
+        </div>
+    </section><!-- code -->
+
+    <section class="row section section-appendix">
+        <h1 class="text1">demo</h1>
+        <p>This is a local demo I developed. The main part of the game is working, while it has just one level and data is just for testing. (correct answer is "ABCD". )</p>
+        
+        <div class="col-md-12">
+            <a class="button button-picmania" href="../files/picmania/start.html" target="_blank">PicMania Demo</a>
+        </div>
+    </section><!-- code -->
+
+    <section class="row section">
+        <h1 class="text1">reflection</h1>
+        <div class="col-md-8 col-md-offset-2 reflection">
+            <p>It's already been more than two years since I developed this game. Both web technology and my understanding/skill on web development improved a lot. If I would develop this game again, there might be several changes:</p>
+            <ul class="reflection-list">
+                <li><span class="b">Use responsive fuild layout instead of viewport.</span> When I developed this game, iPhone 4 is the most popular smartphone, and screen ratio of phones is not really an issue. So I can use viewport and zoom to achieve responsive. As iPhone 5, 6 came out, screen ratio differs a lot. Using percentage size should be a better solution for responsive layout.</li>
+                <li><span class="b">Separate view and control.</span> I might use a MVC/MV* framework to separate view and control.</li>
+                <li><span class="b">Modularize code.</span> The JS code did a fairly good job on usability. However, it still exposes too many variables. And I need to read through each part to recall how it works.</li>
+                <li><span class="b">Develop a better API to backend.</span> When I developed this game, I was not very familiar with ajax. So it took the backend developper and me quite long time to change the code and connect to real data. If I would develop it again, I would definitely develop a better API for it.</li>
+                <li><span class="b">Performance improvement.</span> Though performance is not a big issue for a simple app like this. I still want to improve it. This version did a poor work on rendering performance. There are too many operations on DOM, which  causes re-rendering of the page. (I had almost no idea about performance back then...)</li>
+                <li><span class="b">Coding style.</span> I might also change the coding style a little bit.</li>
+            </ul>
+        </div>
+    </section><!-- reflection -->
+
+    <footer class="row shading footer">
+        <ul>
+            <li class="contact"><a class="contact-link" href="mailto:liyangguangcn@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li class="contact"><a class="contact-link" href="https://www.linkedin.com/in/yangguangli" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+        <p>2016 © Designed & Coded by Yangguang Li.</p>
+    </footer>
+
+<!-- JUST FOR DEV! UNCOMMENT BEFORE RELEASE! <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/work.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72765610-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
